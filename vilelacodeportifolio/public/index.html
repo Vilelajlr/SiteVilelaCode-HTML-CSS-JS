@@ -27,14 +27,16 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 <body>
 
     <div class="bg-home">
-        <header>
+        <header >
 
             <nav class="header-content container">
-                <div class="header-icons">
+                <div class="header-icons" data-aos="fade-down">
                     <a href="#">
                         <i class="fa-brands fa-instagram fa-2x"></i>
                     </a>
@@ -49,11 +51,11 @@
 
                 </div>
 
-                <div class="header-logo">
-                    <img src="../assets/LogoSomenteDesenho.svg" alt="Logo Vilela.code" />
+                <div class="header-logo" data-aos="fade-up" data-aos-delay="300">
+                    <img src="../assets/LogoSomenteDesenho.svg" alt="Logo Vilela.code" data-aos="flip-up" data-aos-delay="300" data-aos-duration="1500" />
                 </div>
 
-                <div class="header-itens-menu">
+                <div class="header-itens-menu" data-aos="fade-down">
                     <a  class="header-button" href="#" target="blank">
                         Entre em Contato!
                     </a>
@@ -61,22 +63,100 @@
             </nav>
 
 
-            <main class="hero container">
-                <div class="hero-logo">
+            <main class="hero container" >
+                <div class="hero-logo" data-aos="fade-down" data-aos-delay="300">
                     <img src="../assets/LogoSomenteEscrita.png" alt="Logo Vilela.code" />
                 </div>
-                <h1>
+                <h1 data-aos="fade-up" data-aos-delay="300">
                     Codificando o futuro, Hoje!
                 </h1>
-                <a href="#" class="button-projects">
-                    Veja meus projetos!
-                </a>
+                <div data-aos="fade-up" data-aos-delay="400">
+                    <a href="#" class="button-projects" >
+                        Veja meus projetos!
+                    </a>
+                </div>
             </main>
-
-
         </header>
     </div>
 
+    <section class="about">
+        <div class="container about-content">
+            <div data-aos="zoom-in" data-aos-delay="100">
+                <img src="../assets/LOGO.png" alt="Imagem Vilela Code">
+            </div>
+
+            <div class="about-description" data-aos="zoom-out-left" data-aos-delay="200">
+                <h2>
+                    Quem Somos?
+                </h2>
+                
+                <p>
+                    
+                    A Vilela.Code é uma empresa de desenvolvimento web, focada em Landing Pages. Criada em 2024, a Vilela.code pelo seu dono <span class="nome-vilela"><a href="#">José Leandro Rodrigues Vilela e Silva</a></span>, tem como objetivo principal, levar a tecnologia para todos, de forma simples e acessível. Acreditamos que a tecnologia é para todos, e por isso, desenvolvemos sites e landing pages, com o objetivo de levar a sua empresa para o próximo nível.
+                    
+
+                </p>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="projects-content container">
+            <h2>
+                Projetos
+            </h2>
+            <p>
+                Conheça alguns dos nossos projetos desenvolvidos para clientes e indivíduais.
+            </p>
+        </div>
+
+        <section class="projects-hub">
+            <div class="project" data-aos="fade-up" data-aos-delay="150">
+                <div class="image-project">
+                    <img src="#" alt="#">
+                </div>
+                <div class="project-info">
+                    <h3>Nome do Projeto</h3>
+                    <p>Descrição do Projeto</p> 
+                    <div class="icons-linguagens-usadas">
+                        
+                    </div>
+                    <a href="#">Ver Projeto</a>
+                </div>
+            </div>
+
+            <div class="project" data-aos="fade-up" data-aos-delay="250">
+                <div class="image-project">
+                    <img src="#" alt="#">
+                </div>
+                <div class="project-info">
+                    <h3>Nome do Projeto</h3>
+                    <p>Descrição do Projeto</p>
+                    <a href="#">Ver Projeto</a>
+                </div>
+            </div>
+
+            <div class="project" data-aos="fade-up" data-aos-delay="350">
+                <div class="image-project">
+                    <img src="#" alt="#">
+                </div>
+                <div class="project-info">
+                    <h3>Nome do Projeto</h3>
+                    <p>Descrição do Projeto</p>
+                    <a href="#">Ver Projeto</a>
+                </div>
+            </div>
+            
+        </section>
+
+
+
+    </section>
+
+
+    <script src="scrypt.js"></script>
     
 </body>
 </html>
